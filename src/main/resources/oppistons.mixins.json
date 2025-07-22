@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "io.github.noskinbadname.oppistons.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"PistonHandlerMixin",
+		"PistonBlockMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

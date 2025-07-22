@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "oppistons",
+	"version": "${version}",
+	"name": "OPPistons",
+	"description": "Remove the limits of pistons!",
+	"authors": [
+		"NoSkinBadName"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/oppistons",
+		"sources": "https://github.com/NoSkinBadName/oppistons"
+	},
+	"license": "MIT",
+	"icon": "assets/oppistons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.noskinbadname.oppistons.OPPistons"
+		],
+		"client": [
+			"io.github.noskinbadname.oppistons.OPPistonsClient"
+		]
+	},
+	"mixins": [
+		"oppistons.mixins.json",
+		{
+			"config": "oppistons.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.7",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
