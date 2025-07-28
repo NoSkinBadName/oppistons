@@ -8,6 +8,9 @@ Massive Piston Limit: Say goodbye to the 12-block push limit! It's now set to th
 
 All Blocks Are Sticky: No need for slime blocks! With OPPistons, every block behaves as if it's sticky, allowing you to pull entire structures without them breaking apart.
 
+## 🔧 Modrinth
+This Mod is also available on [Modrinth](https://modrinth.com/mod/oppistons)
+
 ## 📺 YouTube Video
 I uploaded a YouTube Video about this:
 
