@@ -17,9 +17,6 @@
 	"entrypoints": {
 		"main": [
 			"io.github.noskinbadname.oppistons.OPPistons"
-		],
-		"client": [
-			"io.github.noskinbadname.oppistons.OPPistonsClient"
 		]
 	},
 	"mixins": [
@@ -31,7 +28,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21.7",
+		"minecraft": ">=1.21 <=1.21.8",
 		"java": ">=21",
 		"fabric-api": "*"
 	}
